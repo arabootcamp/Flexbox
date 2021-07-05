@@ -23,17 +23,19 @@
 
 <body>
 
-  <div class="container">
-    <h1 class="my-5">Ejercicios Flexbox:</h1>
-    <div class="list-group">
-      <a href="ejercicio-1.html" class="list-group-item list-group-item-action list-group-item--hover-blue">Ejericio 1: Centrar un botón</a>
-      <a href="ejercicio-2.html" class="list-group-item list-group-item-action list-group-item--hover-blue">Ejercicio 2: Formulario de búsqueda</a>
-      <a href="ejercicio-3.html" class="list-group-item list-group-item-action list-group-item--hover-blue">Ejercicio 3: Barra de navegación horizontal</a>
-      <a href="ejercicio-4.html" class="list-group-item list-group-item-action list-group-item--hover-blue">Ejercicio 4: Grupo de banderas</a>
-      <a href="ejercicio-5.html" class="list-group-item list-group-item-action list-group-item--hover-blue">Ejercicio 5: Grilla de imágenes</a>
-    </div>
-  </div>
+  <nav class="navigation bg-dark">
+    <h2 class="navigation__title text-white fw-bold my-0 ps-5">LOGO</h2>
+    <input type="checkbox" id="menu-bars" class="d-none" >
+    <label for="menu-bars" class="text-white d-lg-none pe-5"><i class="fas fa-bars fa-2x"></i></label>
+    <ul class="navigation__list bg-dark my-0 pe-5">
+      <li class="navigation__item"><a class="navigation__a" href="index.html">Home</a></li>
+      <li class="navigation__item"><a class="navigation__a" href="index.html">Item 2</a></li>
+      <li class="navigation__item"><a class="navigation__a" href="index.html">Item 3</a></li>
+      <li class="navigation__item"><a class="navigation__a" href="index.html">Item 4</a></li>
+      <li class="navigation__item"><a class="navigation__a" href="index.html">Item 5</a></li>
+    </ul>
 
+  </nav>
 
   <!--Bootstrap popper-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

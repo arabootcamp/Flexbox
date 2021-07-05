@@ -1,14 +1,22 @@
 // main.scss # Manifest File
 
 //abstracts
-//@import 'abstracts/variables';
-//@import 'abstracts/mixins';
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
 //vendors
 @import 'vendors/bootstrap/bootstrap';
 //base
+@import 'base/reset';
+@import 'base/base';
 //layout
+@import 'layout/list-group';
 //components
 //pages
+@import 'pages/ejercicio-1';
+@import 'pages/ejercicio-2';
+@import 'pages/ejercicio-3';
+@import 'pages/ejercicio-4';
+@import 'pages/ejercicio-5';
 //themes
 
 
